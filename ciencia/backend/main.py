@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from analise import ler_dados, por_categoria, por_data, resumo
 
 
-app = FastAPI(title='Flow Agendas - Ciência de Dados')
+app = FastAPI(title='api-Flow Agendas')
 
 
 # Permite que o frontend (outra origem) consuma a API
